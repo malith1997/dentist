@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid, GridItem } from '@chakra-ui/react'
 import '../Styles/main.css';
-import Img2 from "../Img/img4.png";
+import Img2 from "../Img/img7.png";
 import Img5 from "../Img/img5.png";
 import Img6 from "../Img/img6.png";
 import { Image,Button } from '@chakra-ui/react'
@@ -70,7 +70,7 @@ export default function Grid1() {
                 delay:0.2,
             }}
             
-            className='column6'>
+            className='column9'>
 
                 <h1 className='subt4'>Caring </h1>
                 <h1 className='subt5'>Dental</h1>
@@ -96,7 +96,7 @@ export default function Grid1() {
                 delay:0.2,
             }}
             
-            className='column7'>
+            className='column8'>
 
                 <h1 className='subt1'>The Process</h1>
                 <h1 className='subt2'>Of installing</h1>
