@@ -9,7 +9,7 @@ import Grid1 from '../componets/grid'
 
 export default function Home() {
   return (
-    <div className='h-screen overflow-hidden relative'>
+    <div>
       
 
 
