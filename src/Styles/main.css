@@ -189,6 +189,32 @@ h1{
   height: 159px; /* Should be removed. Only for demonstration */
 }
 
+
+.column6 {
+  float: left;
+  background: #ffffff;
+  opacity: 0.4;
+  width: 30%;
+  margin-top: -250px;
+  margin-left: 1450px;
+  border-radius: 20px;
+  height: 240px; /* Should be removed. Only for demonstration */
+}
+
+.column7 {
+  float: left;
+  background: #fdfdfd;
+  opacity: 0.4;
+  width: 30%;
+  margin-top: -250px;
+  margin-left: 1000px;
+  border-radius: 20px;
+  height: 240px; /* Should be removed. Only for demonstration */
+}
+
+
+
+
 /* Clear floats after the columns */
 .row1:after {
   content: "";
@@ -207,6 +233,8 @@ h1{
   height: 100%;
   width: 100%;
 }
+
+
 
 .text1{
   color: #020202;
@@ -264,6 +292,82 @@ h1{
   
   
   
+}
+
+
+.subt1{
+
+  color: #000000;
+  margin-right: 400px;
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: 900;
+  position: absolute;
+}
+
+.subt2{
+
+  color: #000000;
+  margin-right: 400px;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 900;
+  position: absolute;
+}
+.subt3{
+
+  color: #000000;
+  margin-right: 400px;
+  margin-top: 60px;
+  font-size: 30px;
+  font-weight: 900;
+  position: absolute;
+}
+
+
+.subt4{
+
+  color: #000000;
+  margin-right: 400px;
+  margin-top: 0px;
+  font-size: 30px;
+  font-weight: 900;
+  position: absolute;
+}
+
+.subt5{
+
+  color: #000000;
+  margin-right: 400px;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 900;
+  position: absolute;
+}
+.subt6{
+
+  color: #000000;
+  margin-right: 400px;
+  margin-top: 60px;
+  font-size: 30px;
+  font-weight: 900;
+  position: absolute;
+}
+
+.button1{
+
+background-color: #ffffff;
+color: #000000;
+padding: 15px;
+width: 200px;
+margin-left: 60%;
+margin-top: 7%;
+border-radius: 50px;
+}
+
+.button1:hover {
+  background-color: #000000;
+  color: #ffffff;
 }
 
 body{

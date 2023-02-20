@@ -4,7 +4,7 @@ import '../Styles/main.css';
 import Img2 from "../Img/img4.png";
 import Img5 from "../Img/img5.png";
 import Img6 from "../Img/img6.png";
-import { Image } from '@chakra-ui/react'
+import { Image,Button } from '@chakra-ui/react'
 import {motion} from 'framer-motion'
 
 
@@ -53,8 +53,73 @@ export default function Grid1() {
             </div>
             <div className='column2'>
             <Image className='Img1' src={Img2}  />
-                
+
             </div>
+
+
+            <motion.div 
+            intitial={{
+                width:0
+            }}
+            animate={{
+                width:"20vw"
+            }}
+            transition={{
+                duration:1.1,
+                ease:"easeInOut",
+                delay:0.2,
+            }}
+            
+            className='column6'>
+
+                <h1 className='subt4'>Caring </h1>
+                <h1 className='subt5'>Dental</h1>
+                <h1 className='subt6'>Implants</h1>
+
+               
+                
+            
+                
+            </motion.div> 
+
+
+            <motion.div 
+            intitial={{
+                width:0
+            }}
+            animate={{
+                width:"20vw"
+            }}
+            transition={{
+                duration:1.1,
+                ease:"easeInOut",
+                delay:0.2,
+            }}
+            
+            className='column7'>
+
+                <h1 className='subt1'>The Process</h1>
+                <h1 className='subt2'>Of installing</h1>
+                <h1 className='subt3'>Implants</h1>
+            
+                
+            </motion.div>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div className='column3'>
             <Image className='Img5' src={Img5}  />
                 
@@ -65,11 +130,59 @@ export default function Grid1() {
 
             </div>
             <div className='column5'>
-                <h1 className='text3'>Dental</h1>
-                <h1 className='text4'>Restoration</h1>
-                <h1 className='text5'>Services</h1>
+                <motion.h1 
+                intitial={{
+                    width:0
+                }}
+                animate={{
+                    width:"20vw"
+                }}
+                transition={{
+                    duration:1.1,
+                    ease:"easeInOut",
+                    delay:0.2,
+                }}
+                
+                
+                className='text3'>Dental</motion.h1>
+                
+                <motion.h1 
+                intitial={{
+                    width:0
+                }}
+                animate={{
+                    width:"23vw"
+                }}
+                transition={{
+                    duration:1.1,
+                    ease:"easeInOut",
+                    delay:0.5,
+                }}
+                className='text4'>Restoration</motion.h1>
+                
+                
+                <motion.h1 
+                intitial={{
+                    width:0
+                }}
+                animate={{
+                    width:"20.6vw"
+                }}
+                transition={{
+                    duration:1.1,
+                    ease:"easeInOut",
+                    delay:0.3,
+                }}
+                className='text5'>Services</motion.h1>
+
+                
+                <Button className='button1'>
+                Book Online
+                </Button>
                 
             </div>
+
+
         </div>
       
 
